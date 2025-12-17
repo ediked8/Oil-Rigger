@@ -1,0 +1,163 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8820905129448550090
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6381424097004815607}
+  - component: {fileID: 4928546138683544865}
+  - component: {fileID: 2093348964474195488}
+  - component: {fileID: 2545158905928340444}
+  - component: {fileID: 3580671556377156183}
+  - component: {fileID: 2094280839716345886}
+  - component: {fileID: 6806375369937569261}
+  m_Layer: 0
+  m_Name: GM
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6381424097004815607
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8820905129448550090}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 750.62994, y: 0, z: 72.97443}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4928546138683544865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8820905129448550090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d94157908ef1e6947bdb063eeb207687, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::StageManager
+  currentLayerIndex: 0
+  OilNodes:
+  - {fileID: 11400000, guid: c298426f1c7446e4b9486d00e0886510, type: 2}
+  - {fileID: 11400000, guid: 56dfb4cdc2f721f4ebeb102dd439ae69, type: 2}
+  - {fileID: 11400000, guid: 3a75f354f7dd8774aa7d01ba6d37240b, type: 2}
+  - {fileID: 11400000, guid: 9bb868dcf46927748927b4519338de55, type: 2}
+  ProList: 
+  oilSeed: 0
+  oilIndex: 0
+  oilCount: 0
+  result: {fileID: 0}
+  drillLevel:
+  - {fileID: 11400000, guid: 174d94aafe35f0a449c24db8a42796c0, type: 2}
+  - {fileID: 11400000, guid: 76eadd682b219c046bbe398b37e23ff3, type: 2}
+  - {fileID: 11400000, guid: ec81302cc9c5bd449b19fb127ecadcf5, type: 2}
+  currentDrillLevel: {fileID: 11400000, guid: 174d94aafe35f0a449c24db8a42796c0, type: 2}
+  drillSeed: 0
+  result2: {fileID: 0}
+  isFail: 0
+  drillCount: 0
+--- !u!114 &2093348964474195488
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8820905129448550090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb6b587c6eb22ab4bb232b7f59ad22d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GameManager
+  stageManager: {fileID: 4928546138683544865}
+  storageManager: {fileID: 2545158905928340444}
+  extractionManager: {fileID: 2094280839716345886}
+  economyManager: {fileID: 6806375369937569261}
+  uiManager: {fileID: 3580671556377156183}
+  monthlyDay: 0
+  currentDay: 0
+  totalDebt: 0
+  remainingDebt: 0
+  monthlyDayCount: 0
+  DayCountText: {fileID: 0}
+  playerGold: 0
+  isItem: 0
+  repairCost: 0
+  isFail: 0
+  currentDrillLvL: 0
+  oil_Index: 0
+--- !u!114 &2545158905928340444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8820905129448550090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1b2ed3f40a905d45813cd1e5c0bd40b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::StorageManager
+--- !u!114 &3580671556377156183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8820905129448550090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cae5d3675b9b307458d97aff2d2172e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UIManager
+  prefab: {fileID: 7350194714379438505, guid: 836960e499c87b140b80dd1677985af1, type: 3}
+  parent: {fileID: 0}
+  itemSlot: {fileID: 0}
+  isUIOn: 0
+  imsiTextUI: {fileID: 0}
+  imsiBtn: {fileID: 0}
+  PlayerGold: {fileID: 0}
+--- !u!114 &2094280839716345886
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8820905129448550090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25fa6a705e50fb84b84a206671c43ae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ExtractionManager
+  particleSystemRenderer: {fileID: 0}
+  smokeVFX: {fileID: 0}
+  fireVFX: {fileID: 0}
+--- !u!114 &6806375369937569261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8820905129448550090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b7e0a8bfa82d66498496b5abc48d321, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EconomyManager
+  priceTable: {fileID: 0}
+  list:
+  - {fileID: 11400000, guid: b9e5c0e1096c49d41a10a33f34988834, type: 2}
+  itemButtonPrefab: {fileID: 6989640707751703447, guid: bc0274ed15d33ed4292157b81d1e0227, type: 3}
+  parent: {fileID: 0}
