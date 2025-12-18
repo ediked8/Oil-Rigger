@@ -105,6 +105,7 @@ public class StageManager : MonoBehaviour
 
     public void DrillStep()
     {
+        audioManager.Audio.PlayOneShot(audioManager.audioDic["Lever"]);
         if (doneDrill)
         {
             currentLayerIndex = 0;
@@ -126,10 +127,12 @@ public class StageManager : MonoBehaviour
         drillSeed -= drillpro;
         if (drillSeed <= 0 && !isFail) 
         {
+            //레버사운드 + 드릴가동사운드
             result2.text = $"지층 {currentLayerIndex} 굴착 성공! \n원유 채취를 시작합니다....";
+            //드릴 에니메이션 나오고 쿨타임 실행 => 6.5초 지나면 결과실행.
             audioManager.Audio.PlayOneShot(audioManager.audioDic["OilDrillingSuccess"]); //시추 성공 재생
-
-            GetItem(); //굴착 성공 시 원유 가챠 실행.
+            // 7초
+            Invoke("GetItem", 0.5f); //굴착 성공 시 원유 가챠 실행.
             extraction.PlayEffect(oilIndex);
             audioManager.FlamePoint.PlayOneShot(audioManager.audioDic["FlameVFX"]); //화염 재생
 

@@ -13,7 +13,11 @@ MonoBehaviour:
   m_Name: Oil_1
   m_EditorClassIdentifier: Assembly-CSharp::CrudeOillScript
   crudeOilData:
+    itemtype: 0
+    item_id: 0
+    item_desc: 
     oil_id: 0
     oil_name: "\uC77C\uBC18 \uC6D0\uC720"
-    oil_cost: 10
+    oil_cost: 1000
     probability: 55
+    setProbability: 
