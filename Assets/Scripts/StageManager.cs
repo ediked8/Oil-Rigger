@@ -3,6 +3,7 @@ using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text;
 using TMPro;
+using UnityEditor;
 using UnityEngine;
 
 public class StageManager : MonoBehaviour
@@ -11,6 +12,7 @@ public class StageManager : MonoBehaviour
     [Header("원유 확률 관련")]
     ExtractionManager extraction;
     GameManager gameManager;
+    AudioManager audioManager;
 
     public int currentLayerIndex;  //현재 굴착한 레이어인덱스
     public CrudeOilScript[] OilNodes;        //원유정보들 
@@ -43,7 +45,9 @@ public class StageManager : MonoBehaviour
         gameManager = GameManager.Instance;
         isFail = gameManager.isFail;
         currentDrillLevel = drillLevel[gameManager.currentDrillLvL];
-        
+        audioManager = GameManager.Instance.audioManager;
+
+
     }
     public void GetItem()
     {
@@ -82,7 +86,8 @@ public class StageManager : MonoBehaviour
             if (oilSeed <= 0)
             {
                 oilIndex = i;
-                GameManager.Instance.oil_Index = oilIndex;
+                GameManager.Instance.oil_Index = oilIndex;               
+               
 
                 break;
             }
@@ -119,12 +124,14 @@ public class StageManager : MonoBehaviour
         drillSeed = Random.Range(1, 101);
         Debug.Log(drillSeed);
         drillSeed -= drillpro;
-        if (drillSeed <= 0 && !isFail)  //아래 코드는 드릴링이 된 만큼 한번에 원유 얻는 코드.
+        if (drillSeed <= 0 && !isFail) 
         {
             result2.text = $"지층 {currentLayerIndex} 굴착 성공! \n원유 채취를 시작합니다....";
+            audioManager.Audio.PlayOneShot(audioManager.audioDic["OilDrillingSuccess"]); //시추 성공 재생
 
             GetItem(); //굴착 성공 시 원유 가챠 실행.
             extraction.PlayEffect(oilIndex);
+            audioManager.FlamePoint.PlayOneShot(audioManager.audioDic["FlameVFX"]); //화염 재생
 
         }
         else if (isFail)
@@ -137,7 +144,8 @@ public class StageManager : MonoBehaviour
         else
         {
             doneDrill = true;
-            drillSeed = Random.Range(1, 101);
+            drillSeed = Random.Range(1, 101);            
+            audioManager.Audio.PlayOneShot(audioManager.audioDic["OilDrillingFail"]); //시추 실패 재생
             if (drillSeed <= 5)
             {
                 isFail = true;
@@ -147,6 +155,7 @@ public class StageManager : MonoBehaviour
             }
             Debug.Log($"{currentLayerIndex - 1}까지 굴착 성공하였습니다.");
             extraction.PlayEffect(4);
+            audioManager.FlamePoint.PlayOneShot(audioManager.audioDic["BlowholeVFX"]); //기포 재생
             gameManager.currentDay++;
             gameManager.DayCountText.text = $"{gameManager.currentDay} Day";
             if ((gameManager.currentDay % 5) == 0)

@@ -6,6 +6,9 @@ using UnityEngine.Audio;
 public class AudioManager : MonoBehaviour
 {
     public AudioSource Audio;
+    public AudioSource FlamePoint;
+    public AudioSource RepairPoint;
+    public AudioSource DrillPoint;
     public Dictionary<string, AudioClip> audioDic;
     public AudioClip[] audioList;
     StringBuilder sb;
@@ -19,9 +22,23 @@ public class AudioManager : MonoBehaviour
     {
         GameManager.Instance.audioManager = this;
         audioDic = new Dictionary<string, AudioClip>();
-        for(int i = 0; i < audioList.Length;i++)
-        audioDic.Add(audioList[i].name, audioList[i]);
-        Audio.PlayOneShot(audioDic["BGM"]);
+        for(int i = 0; i < audioList.Length; i++)
+        {
+            audioDic.Add(audioList[i].name, audioList[i]);
+        }
+        
+        if (GameManager.Instance.isInside)
+        {
+            Audio.PlayOneShot(audioDic["BGM"]);
+
+
+        }
+        else
+        {
+            Audio.PlayOneShot(audioDic["BGM"]);
+            Audio.PlayOneShot(audioDic["BGM-2"]);
+
+        }
     }
 
 }

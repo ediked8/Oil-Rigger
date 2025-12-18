@@ -18,8 +18,9 @@ public class UIManager : MonoBehaviour
     public TextMeshProUGUI imsiTextUI;
     //public Button imsiBtn;
     public TextMeshProUGUI PlayerGold;
+    public TextMeshProUGUI GameMessage;
 
-    
+    public Image PlayerHud;
 
 
     private void Awake()
@@ -83,5 +84,8 @@ public class UIManager : MonoBehaviour
     }
 
     public void PlayerGoldUpdate() => PlayerGold.text = GameManager.Instance.playerGold.ToString();
+
+
+    
 
 }
