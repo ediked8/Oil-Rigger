@@ -1,3 +1,4 @@
+using System.Collections;
 using TMPro;
 using UnityEngine;
 
@@ -9,6 +10,7 @@ public class GameManager : MonoBehaviour
     public ExtractionManager extractionManager;
     public EconomyManager economyManager;
     public UIManager uiManager;
+    public AudioManager audioManager;
    
 
     //플레이어: 주차 정보, 원금 금액, 남은 원금 금액, 주의 최대 채굴 가능 횟수, 주의 남은 채굴 횟수
@@ -26,8 +28,10 @@ public class GameManager : MonoBehaviour
     public bool isFail = false;
     public int currentDrillLvL;
     public bool isInside = true;
+    public int[] DebtGoldArray;
 
-
+    public float timer;
+    public float expireTime;
 
 
     [Header("Oil and Dril Info")]
@@ -55,45 +59,77 @@ public class GameManager : MonoBehaviour
 
         monthlyDay = 30;
         currentDay = 1;
-        totalDebt = 1000;
+        totalDebt = 220000;
         remainingDebt = totalDebt;
-        playerGold = 2000;
+        playerGold = 7500;
         currentDrillLvL = 0;
+        DebtGoldArray = new int[3] { 50000, 70000, 100000 };
 
     }
 
-   
 
-    public void UseDrillAction()
+    private void Start()
     {
-        /*채굴 시 호출
-        currentDrillCount를 줄이고,
-        StageManager에 지층 정보 갱신 요청*/
+        StartCoroutine("StartGame");
+        
     }
+
     public void StoreTime()
     {
-        economyManager.PayDay();
+        if (currentDay % 15 == 0)
+        {
+            audioManager.Audio.PlayOneShot(audioManager.audioDic["ShopBoat"]);
+            economyManager.PayDay();
+        }
     }
 
     public void CheckMonthEnd()
     {
+        StartCoroutine("CheckGameOver");
         monthlyDayCount = currentDay % monthlyDay;
 
-        if (monthlyDayCount == 1)
+        if (monthlyDayCount == 0)
         {
-            //이자 납입 이벤트 실행.
+            audioManager.Audio.PlayOneShot(audioManager.audioDic["DebtBoat"]);
+            uiManager.GameMessage.text = "수금을 위한 상선 도착.";
+            
         }
     }
 
-    public void RepayDebt()
+    public void RepayDebt() //버튼에 할당할 정산기능
     {
-        /* 빚 상환 로직
-          상환 후 remainingDebt가  0 이하일 때 엔딩 호출*/
+        if(currentDay % 30 == 0)
+        { 
+        playerGold -= DebtGoldArray[(currentDay / monthlyDay) - 1];
+        //소리
+        uiManager.GameMessage.text = $"{currentDay / monthlyDay}달차 빛 정산 완료!";
+        }
+        else
+        {
+            //에러소리
+            uiManager.GameMessage.text = "수금을 위한 상선이 도착하지 않았습니다";
+        }
     }
 
-    public void CheckGameOver()
+    
+    IEnumerator  CheckGameOver()
     {
-        /*35 / 70 / 105일차마다 정산금액을
-        못 넘겼을 시 혹은 장비 수리 못할 시 게임 오버 호출*/
+        if(playerGold < DebtGoldArray[(currentDay / monthlyDay) -1])
+        {
+            uiManager.GameMessage.text = "정산에 실패하여 폐업하게 되었습니다...";
+            /*30 / 60 / 90일차마다 정산금액을
+       못 넘겼을 시 혹은 장비 수리 못할 시 게임 오버 호출*/
+        }
+
+        yield return null;
+
+
+    }
+
+    IEnumerator StartGame()
+    {
+        yield return null;
+        audioManager.Audio.PlayOneShot(audioManager.audioDic["ShopBoat"]);
+
     }
 }
