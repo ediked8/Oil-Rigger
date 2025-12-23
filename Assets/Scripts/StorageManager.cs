@@ -1,18 +1,35 @@
 using System.Collections.Generic;
-using System.Linq;
+
 using UnityEngine;
+using static UnityEditor.Timeline.Actions.MenuPriority;
 
 
 public class StorageManager : MonoBehaviour
 {
     public Dictionary<string, StorageData> storage = new Dictionary<string, StorageData>();
+    
 
+    private void Start()
+    {
+        OilInit();
+        AddComsumeItem(GameManager.Instance.economyManager.list[0]);
+    }
+
+    public void  OilInit()
+    {
+        for(int i = 0; i < GameManager.Instance.stageManager.OilNodes.Length; i++)
+        {
+            AddItem(GameManager.Instance.stageManager.OilNodes[i]);
+            storage[i.ToString()].item_count = 0;
+        }
+        
+    }
     public void AddItem(CrudeOilScript crudeOilitem)
     {
         string itemId = crudeOilitem.crudeOilData.oil_id;
         if (storage.ContainsKey(itemId))
         {
-
+            
             storage[itemId].item_count++;
         }
 
@@ -30,6 +47,7 @@ public class StorageManager : MonoBehaviour
         if (comsumeItem.crudeOilData.itemtype != Itemtype.comsume)
         {
             Debug.Log("소비아이템이 아닙니다.- 에러 -");
+            //에러소리
             return;
         }
         string itemId = comsumeItem.crudeOilData.item_id.ToString();
@@ -39,7 +57,7 @@ public class StorageManager : MonoBehaviour
             {
 
                 storage[itemId].item_count++;
-                GameManager.Instance.uiManager.slotList[itemId].itemName_Count.text = $"{storage[itemId].item_name} x{storage[itemId].item_count}";
+               // GameManager.Instance.uiManager.slotList[itemId].itemName_Count.text = $"{storage[itemId].item_name} x{storage[itemId].item_count}";
             }
 
             else
@@ -47,9 +65,9 @@ public class StorageManager : MonoBehaviour
 
                 storage.Add(itemId, new StorageData(comsumeItem));
                 //+구매소리 
-
-                Debug.Log("소비아이템 추가됨");
-                GameManager.Instance.uiManager.itemSlotAdd(comsumeItem);
+                storage[itemId].item_count = 0;
+                //아이템 슬롯 시스템 삭제 Debug.Log("소비아이템 추가됨");
+                //GameManager.Instance.uiManager.itemSlotAdd(comsumeItem);
             }
             GameManager.Instance.playerGold -= comsumeItem.crudeOilData.oil_cost;
             GameManager.Instance.uiManager.PlayerGoldUpdate();
@@ -59,7 +77,7 @@ public class StorageManager : MonoBehaviour
             //+오류소리
             Debug.Log("플레이어 골드가 부족합니다");
         }
-        GameManager.Instance.uiManager.ImsiUI();                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+        GameManager.Instance.uiManager.StoredOilCountRefresh();                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
     }
 
     public void ReduceComsumeItem(string id)
@@ -68,27 +86,30 @@ public class StorageManager : MonoBehaviour
         {
             Debug.Log(storage[id].item_type);
             Debug.Log("소비아이템이 아닙니다.- 에러 -");
+            //에러소리
             return;
         }
         string itemId = (storage[id].item_id.ToString());
-        if (storage.ContainsKey(itemId))
+        if (storage[itemId].item_count <= 0)
+        {
+            //에러소리
+            return;
+        }    
+            if (storage.ContainsKey(itemId))
         {
 
             storage[itemId].item_count--;
-            GameManager.Instance.uiManager.slotList[itemId].itemCount = storage[itemId].item_count;
-            GameManager.Instance.uiManager.slotList[itemId].itemName_Count.text = $"{storage[itemId].item_name} x{storage[itemId].item_count}";
+            //GameManager.Instance.uiManager.slotList[itemId].itemCount = storage[itemId].item_count;
+            //GameManager.Instance.uiManager.slotList[itemId].itemName_Count.text = $"{storage[itemId].item_name} x{storage[itemId].item_count}";
             Debug.Log("소비아이템 소비됨.");
-            if (storage[itemId].item_count <= 0)
-            {
-                Debug.Log("삭제절차 진행");
-                RemoveSpecifyitem(itemId);
-            }
+            GameManager.Instance.uiManager.StoredOilCountRefresh();
+          
         }
     }
 
     public void RemoveOilItem()
     {  //원유 제거 로직
-        List<string> keyList = new List<string>();
+      /*  List<string> keyList = new List<string>();
         foreach (string s in storage.Keys.ToList())
         {
             if (int.Parse(s) < 10)
@@ -99,13 +120,13 @@ public class StorageManager : MonoBehaviour
         foreach (string key in keyList)
         {
             storage.Remove(key);
-        }
-        GameManager.Instance.uiManager.ImsiUI();
+        }*/
+        //GameManager.Instance.uiManager.ImsiUI();
     }
 
     public void RemoveSpecifyitem(string itemid)
-    {
-        if(int.Parse(itemid)>9 ) //게임메니져가  아이템슬롯을 참고하고 있어서 스토리지 삭제 시 비어있으면 키참조오류발생.
+    {//슬롯 시스템 제거로 불필요.
+        /*if (int.Parse(itemid)>9 ) //게임메니져가  아이템슬롯을 참고하고 있어서 스토리지 삭제 시 비어있으면 키참조오류발생.
         {
             GameManager.Instance.isItem = !GameManager.Instance.isItem ;
         }
@@ -115,7 +136,7 @@ public class StorageManager : MonoBehaviour
         {
             storage.Remove(key);
             GameManager.Instance.uiManager.itemSlotRemove(itemid);
-        }
+        }*/
     }
 
 

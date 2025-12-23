@@ -11,7 +11,7 @@ public class GameManager : MonoBehaviour
     public EconomyManager economyManager;
     public UIManager uiManager;
     public AudioManager audioManager;
-   
+
 
     //플레이어: 주차 정보, 원금 금액, 남은 원금 금액, 주의 최대 채굴 가능 횟수, 주의 남은 채굴 횟수
     [Header("PlayerInfo")]
@@ -22,13 +22,14 @@ public class GameManager : MonoBehaviour
     public int monthlyDayCount; //이번 달 남은 시추 가능 횟수
     public TextMeshProUGUI DayCountText;
     public int playerGold;
-    public bool isItem= false;
+    public bool isItem = false;
     public StorageData toUseitem;
     public int repairCost;
     public bool isFail = false;
     public int currentDrillLvL;
     public bool isInside = true;
     public int[] DebtGoldArray;
+    public bool isShop = false;
 
     public float timer;
     public float expireTime;
@@ -71,15 +72,22 @@ public class GameManager : MonoBehaviour
     private void Start()
     {
         StartCoroutine("StartGame");
-        
+        toUseitem = new StorageData(GameManager.Instance.economyManager.list[0]);
     }
 
     public void StoreTime()
     {
         if (currentDay % 15 == 0)
         {
+            isShop = true;
             audioManager.Audio.PlayOneShot(audioManager.audioDic["ShopBoat"]);
-            economyManager.PayDay();
+            uiManager.storeUI();
+        }
+        else
+        {
+            isShop = false;
+            uiManager.storeUI();
+
         }
     }
 
@@ -92,29 +100,29 @@ public class GameManager : MonoBehaviour
         {
             audioManager.Audio.PlayOneShot(audioManager.audioDic["DebtBoat"]);
             uiManager.GameMessage.text = "수금을 위한 상선 도착.";
-            
+
         }
     }
 
     public void RepayDebt() //버튼에 할당할 정산기능
     {
-        if(currentDay % 30 == 0)
-        { 
-        playerGold -= DebtGoldArray[(currentDay / monthlyDay) - 1];
-        //소리
-        uiManager.GameMessage.text = $"{currentDay / monthlyDay}달차 빛 정산 완료!";
+        if (currentDay % 30 == 0)
+        {
+            playerGold -= DebtGoldArray[(currentDay / monthlyDay) - 1];
+            audioManager.Audio.PlayOneShot(audioManager.audioDic["Money"]);
+           // uiManager.GameMessage.text = $"{currentDay / monthlyDay}달차 빛 정산 완료!";
         }
         else
         {
             //에러소리
-            uiManager.GameMessage.text = "수금을 위한 상선이 도착하지 않았습니다";
+          //  uiManager.GameMessage.text = "수금을 위한 상선이 도착하지 않았습니다";
         }
     }
 
-    
-    IEnumerator  CheckGameOver()
+
+    IEnumerator CheckGameOver()
     {
-        if(playerGold < DebtGoldArray[(currentDay / monthlyDay) -1])
+        if (playerGold < DebtGoldArray[(currentDay / monthlyDay) - 1])
         {
             uiManager.GameMessage.text = "정산에 실패하여 폐업하게 되었습니다...";
             /*30 / 60 / 90일차마다 정산금액을

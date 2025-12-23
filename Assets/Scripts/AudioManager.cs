@@ -6,17 +6,17 @@ using UnityEngine.Audio;
 public class AudioManager : MonoBehaviour
 {
     public AudioSource Audio;
+    public AudioSource AudioBGM;
     public AudioSource FlamePoint;
     public AudioSource RepairPoint;
     public AudioSource DrillPoint;
     public Dictionary<string, AudioClip> audioDic;
     public AudioClip[] audioList;
-    StringBuilder sb;
 
 
     private void Awake()
     {
-        Audio = GetComponent<AudioSource>();
+        
     }
     private void Start()
     {
@@ -25,18 +25,17 @@ public class AudioManager : MonoBehaviour
         for(int i = 0; i < audioList.Length; i++)
         {
             audioDic.Add(audioList[i].name, audioList[i]);
-        }
-        
+        }      
         if (GameManager.Instance.isInside)
         {
-            Audio.PlayOneShot(audioDic["BGM"]);
+            AudioBGM.PlayOneShot(audioDic["BGM"]);
 
 
         }
         else
         {
-            Audio.PlayOneShot(audioDic["BGM"]);
-            Audio.PlayOneShot(audioDic["BGM-2"]);
+            AudioBGM.PlayOneShot(audioDic["BGM"]);
+            AudioBGM.PlayOneShot(audioDic["BGM-2"]);
 
         }
     }

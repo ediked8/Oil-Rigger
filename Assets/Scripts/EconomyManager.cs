@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Runtime.CompilerServices;
 using TMPro;
 using UnityEngine;
 
@@ -13,8 +14,8 @@ public class EconomyManager : MonoBehaviour
     public CrudeOilScript[] list;   //아이템리스트
 
 
-    public GameObject itemButtonPrefab; //버튼프리팹
-    public Transform parent;
+    //public GameObject itemButtonPrefab; //버튼프리팹
+//public Transform parent;
     CrudeOilScript data;
 
 
@@ -22,28 +23,32 @@ public class EconomyManager : MonoBehaviour
 
     private void Start()//아이템 구매버튼 활성화 //구매는 버튼프리 프리팹에 기능 포함.
     {
+
+        
         PriceList = new Dictionary<string, int>();
         ComsumeList = new Dictionary<string, CrudeOilScript>();
-        for (int i = 0; i < list.Length; i++)
+      /*  for (int i = 0; i < list.Length; i++)
         {
             ComsumeList.Add(list[i].crudeOilData.oil_name, list[i]);
             GameObject obj = Instantiate(itemButtonPrefab, parent);
             obj.GetComponent<ComsumePrefab>().data = list[i];
 
 
-        }
+        }*/
     }
 
     public void PayDay()//원유시세표 활성화
     {
 
-        PriceList.Clear();
-        for (int i = 0; i < GameManager.Instance.stageManager.OilNodes.Length; i++)
+        
+        /*for (int i = 0; i < GameManager.Instance.stageManager.OilNodes.Length; i++)
         {
             data = GameManager.Instance.stageManager.OilNodes[i];
-            PriceList.Add(data.crudeOilData.oil_name, data.crudeOilData.oil_cost);
-            priceTable.text += $"{data.crudeOilData.oil_name} : {data.crudeOilData.oil_cost}\n";
-        }
+
+           // PriceList.Add(data.crudeOilData.oil_name, data.crudeOilData.oil_cost);
+            
+           // priceTable.text += $"{data.crudeOilData.oil_name} : {data.crudeOilData.oil_cost}\n";
+        }*/
 
     }
 
@@ -56,11 +61,14 @@ public class EconomyManager : MonoBehaviour
             if (data.item_type == "oil")
             {
                 sum += data.item_cost * data.item_count;
+                data.item_count = 0;
             }
         }
         GameManager.Instance.playerGold += sum;
         GameManager.Instance.uiManager.PlayerGoldUpdate();
-        GameManager.Instance.storageManager.RemoveOilItem();
+        GameManager.Instance.uiManager.StoredOilCountRefresh();
+
+        //GameManager.Instance.storageManager.RemoveOilItem();
 
     }
 

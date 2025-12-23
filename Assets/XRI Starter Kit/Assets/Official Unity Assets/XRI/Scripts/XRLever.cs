@@ -11,7 +11,7 @@ namespace MikeNspired.XRIStarterKit
     /// </summary>
     public class XRLever : UnityEngine.XR.Interaction.Toolkit.Interactables.XRBaseInteractable
     {
-        const float k_LeverDeadZone = 0.1f; // Prevents rapid switching between on and off states when right in the middle
+        const float k_LeverDeadZone = 0.05f; // Prevents rapid switching between on and off states when right in the middle
         
         [SerializeField]
         [Tooltip("The object that is visually grabbed and manipulated")]
