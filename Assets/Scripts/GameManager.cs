@@ -80,7 +80,7 @@ public class GameManager : MonoBehaviour
         if (currentDay % 15 == 0)
         {
             isShop = true;
-            audioManager.Audio.PlayOneShot(audioManager.audioDic["ShopBoat"]);
+            //audioManager.Audio.PlayOneShot(audioManager.audioDic["ShopBoat"]);
             uiManager.storeUI();
         }
         else
@@ -109,7 +109,10 @@ public class GameManager : MonoBehaviour
         if (currentDay % 30 == 0)
         {
             playerGold -= DebtGoldArray[(currentDay / monthlyDay) - 1];
+            totalDebt -= DebtGoldArray[(currentDay / monthlyDay) - 1];
             audioManager.Audio.PlayOneShot(audioManager.audioDic["Money"]);
+            uiManager.PlayerGoldUpdate();
+            uiManager.totalDebtUp();
            // uiManager.GameMessage.text = $"{currentDay / monthlyDay}달차 빛 정산 완료!";
         }
         else

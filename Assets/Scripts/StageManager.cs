@@ -35,6 +35,7 @@ public class StageManager : MonoBehaviour
     public bool doneDrill = true;
     string ProResult;
 
+    public int test;
     [Header("드릴 애니메이션")]
     public XRLever lever;
 
@@ -49,6 +50,11 @@ public class StageManager : MonoBehaviour
         drillCount = 0;
 
 
+    }
+    private void Update()
+    {
+        if (GameManager.Instance.currentDay == test)
+            StartCoroutine(Call());
     }
     public void GetItem()
     {
@@ -237,7 +243,15 @@ public class StageManager : MonoBehaviour
 
     }
 
-
+    IEnumerator Call()
+    {
+        gameManager.StoreTime();
+        if (gameManager.currentDay % 30 != 0)
+            audioManager.Audio.PlayOneShot(audioManager.audioDic["ShopBoat"]); //뱃고동 재생
+        else
+            audioManager.Audio.PlayOneShot(audioManager.audioDic["DebtBoat"]); // 빚 상선 재생
+        yield return null;
+    }
     public void CallDrillStep()
     {
         StartCoroutine(DrillStep());

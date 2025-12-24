@@ -3,7 +3,22 @@ guid: 7ff7b643de28b094aaeb375dccfef2c9
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Bed
+    second: {fileID: 2100000, guid: 9da66c0996fc7ba479facf97b33eaac1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_BedBottom
+    second: {fileID: 2100000, guid: 9da66c0996fc7ba479facf97b33eaac1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Frame
+    second: {fileID: 2100000, guid: 9da66c0996fc7ba479facf97b33eaac1, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

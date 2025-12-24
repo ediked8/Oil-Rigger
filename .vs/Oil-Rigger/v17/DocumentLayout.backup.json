@@ -1,50 +1,48 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\PC\\Documents\\UnityProjects\\UnityTeamProjects\\Oil-Rigger\\",
+  "WorkspaceRootPath": "C:\\Users\\PC\\Desktop\\sichu\\Oil-Rigger\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{22FA0ACF-039A-E6EE-0075-96D2FF52DEBE}|Assembly-CSharp.csproj|c:\\users\\pc\\documents\\unityprojects\\unityteamprojects\\oil-rigger\\assets\\scripts\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{22FA0ACF-039A-E6EE-0075-96D2FF52DEBE}|Assembly-CSharp.csproj|C:\\Users\\PC\\Desktop\\sichu\\Oil-Rigger\\assets\\scripts\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{22FA0ACF-039A-E6EE-0075-96D2FF52DEBE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{22FA0ACF-039A-E6EE-0075-96D2FF52DEBE}|Assembly-CSharp.csproj|C:\\Users\\PC\\Documents\\UnityProjects\\UnityTeamProjects\\Oil-Rigger\\assets\\scripts\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{22FA0ACF-039A-E6EE-0075-96D2FF52DEBE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{22FA0ACF-039A-E6EE-0075-96D2FF52DEBE}|Assembly-CSharp.csproj|C:\\Users\\PC\\Documents\\UnityProjects\\UnityTeamProjects\\Oil-Rigger\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{22FA0ACF-039A-E6EE-0075-96D2FF52DEBE}|Assembly-CSharp.csproj|c:\\users\\pc\\desktop\\sichu\\oil-rigger\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{22FA0ACF-039A-E6EE-0075-96D2FF52DEBE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\Documents\\UnityProjects\\UnityTeamProjects\\Oil-Rigger\\Assets\\TutorialInfo\\Scripts\\Editor\\ReadmeEditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\TutorialInfo\\Scripts\\Editor\\ReadmeEditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{22FA0ACF-039A-E6EE-0075-96D2FF52DEBE}|Assembly-CSharp.csproj|C:\\Users\\PC\\Documents\\UnityProjects\\UnityTeamProjects\\Oil-Rigger\\assets\\scripts\\scenemanagers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{22FA0ACF-039A-E6EE-0075-96D2FF52DEBE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scenemanagers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{22FA0ACF-039A-E6EE-0075-96D2FF52DEBE}|Assembly-CSharp.csproj|C:\\Users\\PC\\Documents\\UnityProjects\\UnityTeamProjects\\Oil-Rigger\\assets\\scripts\\economymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{22FA0ACF-039A-E6EE-0075-96D2FF52DEBE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\economymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{22FA0ACF-039A-E6EE-0075-96D2FF52DEBE}|Assembly-CSharp.csproj|C:\\Users\\PC\\Documents\\UnityProjects\\UnityTeamProjects\\Oil-Rigger\\assets\\scripts\\storagemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{22FA0ACF-039A-E6EE-0075-96D2FF52DEBE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\storagemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{22FA0ACF-039A-E6EE-0075-96D2FF52DEBE}|Assembly-CSharp.csproj|C:\\Users\\PC\\Documents\\UnityProjects\\UnityTeamProjects\\Oil-Rigger\\assets\\scripts\\extractionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{22FA0ACF-039A-E6EE-0075-96D2FF52DEBE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\extractionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0090CD3F-9475-F5BB-F6C7-7AF3408DFEA9}|MikeNspiredXRIStarterKit.Runtime.csproj|C:\\Users\\PC\\Documents\\UnityProjects\\UnityTeamProjects\\Oil-Rigger\\assets\\xri starter kit\\assets\\official unity assets\\xri\\scripts\\xrlever.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0090CD3F-9475-F5BB-F6C7-7AF3408DFEA9}|MikeNspiredXRIStarterKit.Runtime.csproj|solutionrelative:assets\\xri starter kit\\assets\\official unity assets\\xri\\scripts\\xrlever.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{22FA0ACF-039A-E6EE-0075-96D2FF52DEBE}|Assembly-CSharp.csproj|C:\\Users\\PC\\Documents\\UnityProjects\\UnityTeamProjects\\Oil-Rigger\\assets\\scripts\\stagemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{22FA0ACF-039A-E6EE-0075-96D2FF52DEBE}|Assembly-CSharp.csproj|C:\\Users\\PC\\Desktop\\sichu\\Oil-Rigger\\assets\\scripts\\stagemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{22FA0ACF-039A-E6EE-0075-96D2FF52DEBE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\stagemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\Documents\\UnityProjects\\UnityTeamProjects\\Oil-Rigger\\Assets\\Scripts\\Test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{22FA0ACF-039A-E6EE-0075-96D2FF52DEBE}|Assembly-CSharp.csproj|C:\\Users\\PC\\Desktop\\sichu\\Oil-Rigger\\assets\\scripts\\economymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22FA0ACF-039A-E6EE-0075-96D2FF52DEBE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\economymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0090CD3F-9475-F5BB-F6C7-7AF3408DFEA9}|MikeNspiredXRIStarterKit.Runtime.csproj|C:\\Users\\PC\\Desktop\\sichu\\Oil-Rigger\\assets\\xri starter kit\\assets\\official unity assets\\xri\\scripts\\xrlever.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0090CD3F-9475-F5BB-F6C7-7AF3408DFEA9}|MikeNspiredXRIStarterKit.Runtime.csproj|solutionrelative:assets\\xri starter kit\\assets\\official unity assets\\xri\\scripts\\xrlever.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22FA0ACF-039A-E6EE-0075-96D2FF52DEBE}|Assembly-CSharp.csproj|C:\\Users\\PC\\Desktop\\sichu\\Oil-Rigger\\assets\\scripts\\extractionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22FA0ACF-039A-E6EE-0075-96D2FF52DEBE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\extractionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22FA0ACF-039A-E6EE-0075-96D2FF52DEBE}|Assembly-CSharp.csproj|C:\\Users\\PC\\Desktop\\sichu\\Oil-Rigger\\assets\\scripts\\storagemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22FA0ACF-039A-E6EE-0075-96D2FF52DEBE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\storagemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22FA0ACF-039A-E6EE-0075-96D2FF52DEBE}|Assembly-CSharp.csproj|C:\\Users\\PC\\Desktop\\sichu\\Oil-Rigger\\assets\\scripts\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22FA0ACF-039A-E6EE-0075-96D2FF52DEBE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\audiomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\Documents\\UnityProjects\\UnityTeamProjects\\Oil-Rigger\\Assets\\TutorialInfo\\Scripts\\Editor\\ReadmeEditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22FA0ACF-039A-E6EE-0075-96D2FF52DEBE}|Assembly-CSharp.csproj|C:\\Users\\PC\\Desktop\\sichu\\Oil-Rigger\\assets\\scripts\\scenemanagers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22FA0ACF-039A-E6EE-0075-96D2FF52DEBE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scenemanagers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\Documents\\UnityProjects\\UnityTeamProjects\\Oil-Rigger\\Assets\\Scripts\\Test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,145 +52,126 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 5,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "EconomyManager.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Documents\\UnityProjects\\UnityTeamProjects\\Oil-Rigger\\Assets\\Scripts\\EconomyManager.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\sichu\\Oil-Rigger\\Assets\\Scripts\\EconomyManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EconomyManager.cs",
-              "ToolTip": "C:\\Users\\PC\\Documents\\UnityProjects\\UnityTeamProjects\\Oil-Rigger\\Assets\\Scripts\\EconomyManager.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\sichu\\Oil-Rigger\\Assets\\Scripts\\EconomyManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\EconomyManager.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAAwD0AAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAADwvxoAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-22T08:47:44.464Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-22T08:47:44.464Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "StorageManager.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Documents\\UnityProjects\\UnityTeamProjects\\Oil-Rigger\\Assets\\Scripts\\StorageManager.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\sichu\\Oil-Rigger\\Assets\\Scripts\\StorageManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\StorageManager.cs",
-              "ToolTip": "C:\\Users\\PC\\Documents\\UnityProjects\\UnityTeamProjects\\Oil-Rigger\\Assets\\Scripts\\StorageManager.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\sichu\\Oil-Rigger\\Assets\\Scripts\\StorageManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\StorageManager.cs",
               "ViewState": "AgIAADIAAAAAAAAAAAAUwBoAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-22T08:20:36.319Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-22T08:20:36.319Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "ExtractionManager.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Documents\\UnityProjects\\UnityTeamProjects\\Oil-Rigger\\Assets\\Scripts\\ExtractionManager.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\sichu\\Oil-Rigger\\Assets\\Scripts\\ExtractionManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ExtractionManager.cs",
-              "ToolTip": "C:\\Users\\PC\\Documents\\UnityProjects\\UnityTeamProjects\\Oil-Rigger\\Assets\\Scripts\\ExtractionManager.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\sichu\\Oil-Rigger\\Assets\\Scripts\\ExtractionManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\ExtractionManager.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAxwAUAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAACIAAAAAAAAAAAAAwAUAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-22T07:37:58.335Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-22T07:37:58.335Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 4,
               "Title": "XRLever.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Documents\\UnityProjects\\UnityTeamProjects\\Oil-Rigger\\Assets\\XRI Starter Kit\\Assets\\Official Unity Assets\\XRI\\Scripts\\XRLever.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\sichu\\Oil-Rigger\\Assets\\XRI Starter Kit\\Assets\\Official Unity Assets\\XRI\\Scripts\\XRLever.cs",
               "RelativeDocumentMoniker": "Assets\\XRI Starter Kit\\Assets\\Official Unity Assets\\XRI\\Scripts\\XRLever.cs",
-              "ToolTip": "C:\\Users\\PC\\Documents\\UnityProjects\\UnityTeamProjects\\Oil-Rigger\\Assets\\XRI Starter Kit\\Assets\\Official Unity Assets\\XRI\\Scripts\\XRLever.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\sichu\\Oil-Rigger\\Assets\\XRI Starter Kit\\Assets\\Official Unity Assets\\XRI\\Scripts\\XRLever.cs",
               "RelativeToolTip": "Assets\\XRI Starter Kit\\Assets\\Official Unity Assets\\XRI\\Scripts\\XRLever.cs",
               "ViewState": "AgIAAJ4AAAAAAAAAAAAmwMcAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-22T03:09:32.311Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-22T03:09:32.311Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 2,
               "Title": "StageManager.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Documents\\UnityProjects\\UnityTeamProjects\\Oil-Rigger\\Assets\\Scripts\\StageManager.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\sichu\\Oil-Rigger\\Assets\\Scripts\\StageManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\StageManager.cs",
-              "ToolTip": "C:\\Users\\PC\\Documents\\UnityProjects\\UnityTeamProjects\\Oil-Rigger\\Assets\\Scripts\\StageManager.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\sichu\\Oil-Rigger\\Assets\\Scripts\\StageManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\StageManager.cs",
-              "ViewState": "AgIAAO4AAAAAAAAAAAAqwK4AAABCAAAAAAAAAA==",
+              "ViewState": "AgIAALoAAAAAAAAAAAAAAM8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-18T01:35:36.033Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-18T01:35:36.033Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "UIManager.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Documents\\UnityProjects\\UnityTeamProjects\\Oil-Rigger\\Assets\\Scripts\\UIManager.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\sichu\\Oil-Rigger\\Assets\\Scripts\\UIManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UIManager.cs",
-              "ToolTip": "C:\\Users\\PC\\Documents\\UnityProjects\\UnityTeamProjects\\Oil-Rigger\\Assets\\Scripts\\UIManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\UIManager.cs",
-              "ViewState": "AgIAAPsAAAAAAAAAAAAuwAUBAACmAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\sichu\\Oil-Rigger\\Assets\\Scripts\\UIManager.cs*",
+              "RelativeToolTip": "Assets\\Scripts\\UIManager.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-18T02:01:41.389Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "SceneManagers.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Documents\\UnityProjects\\UnityTeamProjects\\Oil-Rigger\\Assets\\Scripts\\SceneManagers.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\sichu\\Oil-Rigger\\Assets\\Scripts\\SceneManagers.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SceneManagers.cs",
-              "ToolTip": "C:\\Users\\PC\\Documents\\UnityProjects\\UnityTeamProjects\\Oil-Rigger\\Assets\\Scripts\\SceneManagers.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\sichu\\Oil-Rigger\\Assets\\Scripts\\SceneManagers.cs",
               "RelativeToolTip": "Assets\\Scripts\\SceneManagers.cs",
               "ViewState": "AgIAAB4AAAAAAAAAAAAIwCwAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-18T01:04:54.359Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-18T01:04:54.359Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AudioManager.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\sichu\\Oil-Rigger\\Assets\\Scripts\\AudioManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\AudioManager.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\sichu\\Oil-Rigger\\Assets\\Scripts\\AudioManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\AudioManager.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAwB4AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T00:58:10.956Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AudioManager.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Documents\\UnityProjects\\UnityTeamProjects\\Oil-Rigger\\Assets\\Scripts\\AudioManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\AudioManager.cs",
-              "ToolTip": "C:\\Users\\PC\\Documents\\UnityProjects\\UnityTeamProjects\\Oil-Rigger\\Assets\\Scripts\\AudioManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\AudioManager.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAADwvx4AAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-18T00:58:10.956Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "GameManager.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Documents\\UnityProjects\\UnityTeamProjects\\Oil-Rigger\\Assets\\Scripts\\GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\sichu\\Oil-Rigger\\Assets\\Scripts\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
-              "ToolTip": "C:\\Users\\PC\\Documents\\UnityProjects\\UnityTeamProjects\\Oil-Rigger\\Assets\\Scripts\\GameManager.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\sichu\\Oil-Rigger\\Assets\\Scripts\\GameManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAADwv3QAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAtwHAAAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-16T01:52:09.13Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "ReadmeEditor.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Documents\\UnityProjects\\UnityTeamProjects\\Oil-Rigger\\Assets\\TutorialInfo\\Scripts\\Editor\\ReadmeEditor.cs",
-              "RelativeDocumentMoniker": "Assets\\TutorialInfo\\Scripts\\Editor\\ReadmeEditor.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Documents\\UnityProjects\\UnityTeamProjects\\Oil-Rigger\\Assets\\TutorialInfo\\Scripts\\Editor\\ReadmeEditor.cs",
               "ToolTip": "C:\\Users\\PC\\Documents\\UnityProjects\\UnityTeamProjects\\Oil-Rigger\\Assets\\TutorialInfo\\Scripts\\Editor\\ReadmeEditor.cs",
-              "RelativeToolTip": "Assets\\TutorialInfo\\Scripts\\Editor\\ReadmeEditor.cs",
+              "RelativeToolTip": "..\\..\\..\\Documents\\UnityProjects\\UnityTeamProjects\\Oil-Rigger\\Assets\\TutorialInfo\\Scripts\\Editor\\ReadmeEditor.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-16T01:35:25.252Z"
             },
@@ -201,9 +180,9 @@
               "DocumentIndex": 10,
               "Title": "Test.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Documents\\UnityProjects\\UnityTeamProjects\\Oil-Rigger\\Assets\\Scripts\\Test.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Test.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Documents\\UnityProjects\\UnityTeamProjects\\Oil-Rigger\\Assets\\Scripts\\Test.cs",
               "ToolTip": "C:\\Users\\PC\\Documents\\UnityProjects\\UnityTeamProjects\\Oil-Rigger\\Assets\\Scripts\\Test.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Test.cs",
+              "RelativeToolTip": "..\\..\\..\\Documents\\UnityProjects\\UnityTeamProjects\\Oil-Rigger\\Assets\\Scripts\\Test.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-02T03:31:22.522Z"

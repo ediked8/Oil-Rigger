@@ -2,7 +2,7 @@ Using pre-set license
 Built from '6000.0/respin/6000.0.60f1-f02d6f9f9009' branch; Version is '6000.0.60f1 (61dfb374e36f) revision 6414259'; Using compiler version '193933523'; Build Type 'Release'
 OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ko' Physical Memory: 32704 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
-Date: 2025-12-23T02:03:48Z
+Date: 2025-12-23T05:49:05Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.0.60f1\Editor\Unity.exe
@@ -12,11 +12,11 @@ C:\Program Files\Unity\Hub\Editor\6000.0.60f1\Editor\Unity.exe
 -name
 AssetImportWorker1
 -projectPath
-C:/Users/PC/Documents/UnityProjects/UnityTeamProjects/Oil-Rigger
+C:/Users/PC/Desktop/sichu/Oil-Rigger
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-49982
+55544
 -job-worker-count
 5
 -background-job-worker-count
@@ -25,8 +25,8 @@ Logs/AssetImportWorker1.log
 1
 -name
 AssetImport
-Successfully changed project path to: C:/Users/PC/Documents/UnityProjects/UnityTeamProjects/Oil-Rigger
-C:/Users/PC/Documents/UnityProjects/UnityTeamProjects/Oil-Rigger
+Successfully changed project path to: C:/Users/PC/Desktop/sichu/Oil-Rigger
+C:/Users/PC/Desktop/sichu/Oil-Rigger
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -62,12 +62,12 @@ C:/Users/PC/Documents/UnityProjects/UnityTeamProjects/Oil-Rigger
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [15284]  Target information:
+Player connection [4300]  Target information:
 
-Player connection [15284]  * "[IP] 192.168.0.16 [Port] 0 [Flags] 2 [Guid] 836737294 [EditorId] 836737294 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-EVERUQ8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [4300]  * "[IP] 192.168.0.15 [Port] 0 [Flags] 2 [Guid] 1319898395 [EditorId] 1319898395 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-6NVIDMR) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [15284] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [15284] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [4300] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [4300] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -79,59 +79,59 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 13.96 ms, found 13 plugins.
-Preloading 1 native plugins for Editor in 0.42 ms.
+Refreshing native plugins compatible for Editor in 15.47 ms, found 13 plugins.
+Preloading 1 native plugins for Editor in 0.44 ms.
 Initialize engine version: 6000.0.60f1 (61dfb374e36f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.60f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/PC/Documents/UnityProjects/UnityTeamProjects/Oil-Rigger/Assets
+[Subsystems] Discovering subsystems at path C:/Users/PC/Desktop/sichu/Oil-Rigger/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3070 (ID=0x2484)
+    Renderer: NVIDIA GeForce RTX 3060 Ti (ID=0x2489)
     Vendor:   NVIDIA
-    VRAM:     8018 MB
-    Driver:   32.0.15.6094
+    VRAM:     8024 MB
+    Driver:   32.0.15.8157
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.60f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.60f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.60f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56232
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56368
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.60f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002926 seconds.
-- Loaded All Assemblies, in  0.438 seconds
+Registered in 0.003586 seconds.
+- Loaded All Assemblies, in  0.433 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.370 seconds
-Domain Reload Profiling: 806ms
-	BeginReloadAssembly (139ms)
+- Finished resetting the current domain, in  0.403 seconds
+Domain Reload Profiling: 834ms
+	BeginReloadAssembly (138ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (43ms)
+	RebuildCommonClasses (42ms)
 	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (55ms)
-	LoadAllAssembliesAndSetupDomain (183ms)
-		LoadAssemblies (136ms)
+	initialDomainReloadingComplete (57ms)
+	LoadAllAssembliesAndSetupDomain (179ms)
+		LoadAssemblies (135ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (180ms)
-			TypeCache.Refresh (179ms)
-				TypeCache.ScanAssembly (164ms)
+		AnalyzeDomain (175ms)
+			TypeCache.Refresh (173ms)
+				TypeCache.ScanAssembly (158ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (371ms)
+	FinalizeReload (404ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (314ms)
+		SetupLoadedEditorAssemblies (350ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (26ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (65ms)
-			ProcessInitializeOnLoadAttributes (156ms)
-			ProcessInitializeOnLoadMethodAttributes (63ms)
+			InitializePlatformSupportModulesInManaged (27ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (67ms)
+			ProcessInitializeOnLoadAttributes (193ms)
+			ProcessInitializeOnLoadMethodAttributes (57ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -141,8 +141,8 @@ Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.951 seconds
-Refreshing native plugins compatible for Editor in 11.31 ms, found 13 plugins.
+- Loaded All Assemblies, in  1.023 seconds
+Refreshing native plugins compatible for Editor in 14.08 ms, found 13 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
@@ -172,39 +172,39 @@ Mono: successfully reloaded assembly
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.083 seconds
-Domain Reload Profiling: 2028ms
-	BeginReloadAssembly (200ms)
+- Finished resetting the current domain, in  1.109 seconds
+Domain Reload Profiling: 2125ms
+	BeginReloadAssembly (205ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (33ms)
-	RebuildCommonClasses (44ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (43ms)
-	LoadAllAssembliesAndSetupDomain (643ms)
-		LoadAssemblies (397ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (706ms)
+		LoadAssemblies (437ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (356ms)
-			TypeCache.Refresh (258ms)
-				TypeCache.ScanAssembly (234ms)
-			BuildScriptInfoCaches (77ms)
-			ResolveRequiredComponents (18ms)
-	FinalizeReload (1084ms)
+		AnalyzeDomain (380ms)
+			TypeCache.Refresh (277ms)
+				TypeCache.ScanAssembly (249ms)
+			BuildScriptInfoCaches (80ms)
+			ResolveRequiredComponents (19ms)
+	FinalizeReload (1110ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (848ms)
+		SetupLoadedEditorAssemblies (874ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (2ms)
 			SetLoadedEditorAssemblies (7ms)
 			BeforeProcessingInitializeOnLoad (164ms)
-			ProcessInitializeOnLoadAttributes (498ms)
-			ProcessInitializeOnLoadMethodAttributes (171ms)
-			AfterProcessingInitializeOnLoad (5ms)
+			ProcessInitializeOnLoadAttributes (512ms)
+			ProcessInitializeOnLoadMethodAttributes (180ms)
+			AfterProcessingInitializeOnLoad (9ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
 WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
@@ -242,215 +242,772 @@ WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 11.53 ms, found 13 plugins.
+Refreshing native plugins compatible for Editor in 12.89 ms, found 13 plugins.
 Preloading 1 native plugins for Editor in 0.06 ms.
 Unloading 19 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6644 unused Assets / (7.1 MB). Loaded Objects now: 7394.
-Memory consumption went from 148.5 MB to 141.4 MB.
-Total: 11.130800 ms (FindLiveObjects: 0.897400 ms CreateObjectMapping: 1.218700 ms MarkObjects: 5.072100 ms  DeleteObjects: 3.941900 ms)
+Unloading 6644 unused Assets / (6.9 MB). Loaded Objects now: 7390.
+Memory consumption went from 148.0 MB to 141.2 MB.
+Total: 13.740100 ms (FindLiveObjects: 0.767600 ms CreateObjectMapping: 1.361200 ms MarkObjects: 7.479900 ms  DeleteObjects: 4.129700 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1404.341944 seconds.
-  path: Assets/Fonts/MaruBuri-Regular SDF.asset
-  artifactKey: Guid(c2bd9e85b183b254a9c856244c2223b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fonts/MaruBuri-Regular SDF.asset using Guid(c2bd9e85b183b254a9c856244c2223b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4056cd263a236eda7299bb79dda9ee80') in 1.0899509 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+  Time since last request: 349158.281714 seconds.
+  path: Assets/Models/sichu_in_test.fbx
+  artifactKey: Guid(77ab5efd3b0e10148bbccc6abb4f44ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/sichu_in_test.fbx using Guid(77ab5efd3b0e10148bbccc6abb4f44ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ad03cc34d88b142fa3f217ae8e1b5b01') in 0.8069119 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 191
 
 ========================================================================
 Received Import Request.
-  Time since last request: 36.355702 seconds.
-  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
-  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '41667dd561b2a0ee6a6e85f8a12c5a31') in 0.0216928 seconds
+  Time since last request: 0.000046 seconds.
+  path: Assets/Models/sichu.fbx
+  artifactKey: Guid(c47f072d5d94601449caee8685d3695e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/sichu.fbx using Guid(c47f072d5d94601449caee8685d3695e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bd19343f78f97ba86cae18dd561c09cc') in 0.4518894 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 392
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.154000 seconds.
+  path: Assets/Models/Sichu/dodrill.mat
+  artifactKey: Guid(7ffb8353cb7139d439b327700243be1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sichu/dodrill.mat using Guid(7ffb8353cb7139d439b327700243be1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7aca0af549257b914bd310056b8f8e0c') in 0.0558815 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Roboto-Bold.ttf
-  artifactKey: Guid(4beb055f07aaff244873dec698d0363e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Roboto-Bold.ttf using Guid(4beb055f07aaff244873dec698d0363e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '18813be7f0aad8f05373eae3eba14119') in 0.012123 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+  Time since last request: 0.000028 seconds.
+  path: Assets/Models/Sichu/sichu_final.fbx
+  artifactKey: Guid(a1c1c81618b3c6d40932da314015b351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sichu/sichu_final.fbx using Guid(a1c1c81618b3c6d40932da314015b351) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5ecc544ea41a8099172a02525d144c2a') in 0.5949329 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 387
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Fonts/MaruBuri-Bold.ttf
-  artifactKey: Guid(276f9c210b18bca4287e96f0bb312f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fonts/MaruBuri-Bold.ttf using Guid(276f9c210b18bca4287e96f0bb312f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5db4e7e1e338ec90ec6ea4176936e14f') in 0.019908 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Fonts/NotoSansKR-VariableFont_wght.ttf
-  artifactKey: Guid(2f2873c3bb29f914abe236f364fd2232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fonts/NotoSansKR-VariableFont_wght.ttf using Guid(2f2873c3bb29f914abe236f364fd2232) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3c1a6c88a64bbf771e2924d262c28743') in 0.0256361 seconds
+  Time since last request: 0.000058 seconds.
+  path: Assets/Models/Sichu/main_board.mat
+  artifactKey: Guid(eb7bc17c5299eff4aa7c6a570589e920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sichu/main_board.mat using Guid(eb7bc17c5299eff4aa7c6a570589e920) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '16f78366d9e91e93875cbb760fe5077c') in 0.0231113 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000022 seconds.
-  path: Assets/Fonts/MaruBuri-Regular.ttf
-  artifactKey: Guid(81bd3d631e5fc0749a59a35e0be39392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fonts/MaruBuri-Regular.ttf using Guid(81bd3d631e5fc0749a59a35e0be39392) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dd8c652cf0ac13a3ab1c9e0c8571a363') in 0.0167879 seconds
+  path: Assets/Models/Sichu/sichu_all_main_MetallicSmoothness.png
+  artifactKey: Guid(114b65602d73cee46bf048bc7abfee4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sichu/sichu_all_main_MetallicSmoothness.png using Guid(114b65602d73cee46bf048bc7abfee4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ee73ce79bbe21da5313712a903f9d0c5') in 0.0286817 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Models/Sichu/leg.mat
+  artifactKey: Guid(a501d57e60f057e4bba00c58c03a95c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sichu/leg.mat using Guid(a501d57e60f057e4bba00c58c03a95c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '05b3afbfdd65972bbaf6f3abf03a698e') in 0.0217551 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
 
 ========================================================================
-Received Prepare
-WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 11.75 ms, found 13 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Unloading 19 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6568 unused Assets / (7.0 MB). Loaded Objects now: 7556.
-Memory consumption went from 154.0 MB to 147.1 MB.
-Total: 12.970900 ms (FindLiveObjects: 0.819000 ms CreateObjectMapping: 1.706900 ms MarkObjects: 6.493000 ms  DeleteObjects: 3.951300 ms)
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Models/Sichu/sichu_all_radar_fire_AlbedoTransparency.png
+  artifactKey: Guid(17e09e61aef7e3f4a8ab9c409b0d032f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sichu/sichu_all_radar_fire_AlbedoTransparency.png using Guid(17e09e61aef7e3f4a8ab9c409b0d032f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0e035226192b575c67f1e7c4d3726931') in 0.0188223 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
-Prepare: number of updated asset objects reloaded= 0
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.937 seconds
-Refreshing native plugins compatible for Editor in 12.20 ms, found 13 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@44578ba4bd45\Runtime\OculusLoader.cs:312 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0008c] in .\Library\PackageCache\com.unity.xr.oculus@44578ba4bd45\Runtime\OculusLoader.cs:297 
-  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <73ac12a12f9a4ebca156b41ddce95fbe>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <73ac12a12f9a4ebca156b41ddce95fbe>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <73ac12a12f9a4ebca156b41ddce95fbe>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00056] in <3852b49eca73473da3e3282226b08bd7>:0 
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Models/Sichu/main.mat
+  artifactKey: Guid(4d82f80bd6e568c409546f3bfddff5ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sichu/main.mat using Guid(4d82f80bd6e568c409546f3bfddff5ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '272cdb8508d9bb0a0c70dd639dbd6b2b') in 0.0279469 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
 
-Mono: successfully reloaded assembly
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.081 seconds
-Domain Reload Profiling: 2016ms
-	BeginReloadAssembly (274ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (22ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (61ms)
-	RebuildCommonClasses (38ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (30ms)
-	LoadAllAssembliesAndSetupDomain (577ms)
-		LoadAssemblies (404ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (278ms)
-			TypeCache.Refresh (15ms)
-				TypeCache.ScanAssembly (1ms)
-			BuildScriptInfoCaches (239ms)
-			ResolveRequiredComponents (21ms)
-	FinalizeReload (1081ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (854ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (8ms)
-			BeforeProcessingInitializeOnLoad (171ms)
-			ProcessInitializeOnLoadAttributes (518ms)
-			ProcessInitializeOnLoadMethodAttributes (148ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (17ms)
-WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Refreshing native plugins compatible for Editor in 12.90 ms, found 13 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Unloading 19 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6789 unused Assets / (7.0 MB). Loaded Objects now: 7479.
-Memory consumption went from 192.8 MB to 185.8 MB.
-Total: 12.925100 ms (FindLiveObjects: 0.803800 ms CreateObjectMapping: 1.335600 ms MarkObjects: 6.102500 ms  DeleteObjects: 4.682000 ms)
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Models/Sichu/sichu_finish.prefab
+  artifactKey: Guid(394def64cee88544cbbe14aab732683e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Sichu/sichu_finish.prefab using Guid(394def64cee88544cbbe14aab732683e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '75769572df61382c5e7442c66478095b') in 0.0863259 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 703
 
-Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 82.200499 seconds.
+  path: Assets/Models/sichu_in/sichu_in_all/decoco.mat
+  artifactKey: Guid(5361f1a08624f9947ba813f367e2e646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/sichu_in/sichu_in_all/decoco.mat using Guid(5361f1a08624f9947ba813f367e2e646) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3927e0d59feccb1e14fe54e5ee69ac24') in 0.0277002 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Models/sichu_in/sichu_in_all/sichu_in_tex2_lambert1_MetallicSmoothness.png
+  artifactKey: Guid(4dcc7bf079a91d542a54fc05c9a73ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/sichu_in/sichu_in_all/sichu_in_tex2_lambert1_MetallicSmoothness.png using Guid(4dcc7bf079a91d542a54fc05c9a73ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c224d8f2cb1f6f4dae2b419c800cf436') in 0.0209558 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Models/sichu_in/sichu_in_all/sichu_in_tex2_in_deco_Normal.png
+  artifactKey: Guid(b21884ae5106c2445a95f980bedafb74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/sichu_in/sichu_in_all/sichu_in_tex2_in_deco_Normal.png using Guid(b21884ae5106c2445a95f980bedafb74) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '56e47783a8c2785a9b4e7e882d2676e9') in 0.0266037 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Models/sichu_in/sichu_in_all/sichu_in_tex2_drilllmain_AlbedoTransparency.png
+  artifactKey: Guid(62ea38cf35737314cb19e47321e2a2bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/sichu_in/sichu_in_all/sichu_in_tex2_drilllmain_AlbedoTransparency.png using Guid(62ea38cf35737314cb19e47321e2a2bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '67572db19d2a96997119927185106a41') in 0.016267 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Models/sichu_in/sichu_in_all/drill_1.mat
+  artifactKey: Guid(8679540ac0d54a54884316a642966e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/sichu_in/sichu_in_all/drill_1.mat using Guid(8679540ac0d54a54884316a642966e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e78f1a7a1ea2da2cb81727276334d070') in 0.0178887 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Models/sichu_in/sichu_in_all/sichu_in_tex2_drilllmain_MetallicSmoothness.png
+  artifactKey: Guid(582e014b76af4ba4f862ffc53f7ed454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/sichu_in/sichu_in_all/sichu_in_tex2_drilllmain_MetallicSmoothness.png using Guid(582e014b76af4ba4f862ffc53f7ed454) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a2f0a930b02a9854c2466a7fc550eb5e') in 0.0156416 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Models/sichu_in/sichu_in_all/sichu_in_tex2_board_Normal.png
+  artifactKey: Guid(be0ea5e1c4d4b1241a132df5163ccaa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/sichu_in/sichu_in_all/sichu_in_tex2_board_Normal.png using Guid(be0ea5e1c4d4b1241a132df5163ccaa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e47509ac1e72a82c68163b2a6a36d828') in 0.0187822 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Models/sichu_in/sichu_in_all/drilmain.mat
+  artifactKey: Guid(71a54720057de0c4bb6d927f3dcfbb9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/sichu_in/sichu_in_all/drilmain.mat using Guid(71a54720057de0c4bb6d927f3dcfbb9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2f8802b526bd93ece8ebf88678d78764') in 0.0185051 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Models/sichu_in/sichu_in_all/sichu_in_tex2_drilllcylinder_AlbedoTransparency.png
+  artifactKey: Guid(5291e849207a87941beb6f9624bb8704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/sichu_in/sichu_in_all/sichu_in_tex2_drilllcylinder_AlbedoTransparency.png using Guid(5291e849207a87941beb6f9624bb8704) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '58561b81d337445078e735d9144141f7') in 0.0166726 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Models/sichu_in/sichu_in_all/sichu_in_tex2_lambert1_AlbedoTransparency.png
+  artifactKey: Guid(bfb01ddd2d363364f879105aed76337c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/sichu_in/sichu_in_all/sichu_in_tex2_lambert1_AlbedoTransparency.png using Guid(bfb01ddd2d363364f879105aed76337c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '73b152c902ea552db707720990bb7c3d') in 0.0158779 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Models/sichu_in/sichu_in_all/sichu_in_tex2_main_Normal.png
+  artifactKey: Guid(3e5713cfd64e389428b5f18cbcc6d408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/sichu_in/sichu_in_all/sichu_in_tex2_main_Normal.png using Guid(3e5713cfd64e389428b5f18cbcc6d408) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '94f88663de39d8a74b7dc3da5256bce6') in 0.0173102 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Models/sichu_in/sichu_in_all/sichu_in_tex2_drilllcylinder_MetallicSmoothness.png
+  artifactKey: Guid(2931ddc8863255b409b9c391ffa27f37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/sichu_in/sichu_in_all/sichu_in_tex2_drilllcylinder_MetallicSmoothness.png using Guid(2931ddc8863255b409b9c391ffa27f37) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0108c811b1aa1b94e360bd55ecca594e') in 0.0155069 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Models/sichu_in/sichu_in_all/main.mat
+  artifactKey: Guid(e2a9f85e32fd82e408d7e90b40e80548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/sichu_in/sichu_in_all/main.mat using Guid(e2a9f85e32fd82e408d7e90b40e80548) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cef48b75f31ff643d7c00599c0a355a3') in 0.0235751 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Models/sichu_in/sichu_in_all/sichu_in_tex2_drill_1_AlbedoTransparency.png
+  artifactKey: Guid(3c2850751cbd7604f815d2883724dc62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/sichu_in/sichu_in_all/sichu_in_tex2_drill_1_AlbedoTransparency.png using Guid(3c2850751cbd7604f815d2883724dc62) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '108caa7cf1ffa21360f366c1a38df1a2') in 0.0149104 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Models/sichu_in/sichu_in_all/sichu_in_tex2_board_AlbedoTransparency.png
+  artifactKey: Guid(15e1f6a152e91504fa84624427c64bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/sichu_in/sichu_in_all/sichu_in_tex2_board_AlbedoTransparency.png using Guid(15e1f6a152e91504fa84624427c64bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cd41b5d0eef296c9713fea3f2f312925') in 0.0158649 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Models/sichu_in/sichu_in_all/sichu_in_tex2_main_MetallicSmoothness.png
+  artifactKey: Guid(19d502ac782c6d94e9b41acad75a0af8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/sichu_in/sichu_in_all/sichu_in_tex2_main_MetallicSmoothness.png using Guid(19d502ac782c6d94e9b41acad75a0af8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'db064c93d211244717eeb398cbaf24a7') in 0.0188316 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Models/sichu_in/sichu_in_all/sichu_in_tex2_drill_1_Normal.png
+  artifactKey: Guid(f625d83e77da33a4eac7f229aa1547cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/sichu_in/sichu_in_all/sichu_in_tex2_drill_1_Normal.png using Guid(f625d83e77da33a4eac7f229aa1547cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '60100096bddab9824b7af552530106aa') in 0.0176338 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Models/sichu_in/sichu_in_all/sichu_in_tex2_board_MetallicSmoothness.png
+  artifactKey: Guid(3f15cc5b301837a409bd103b71cfe0b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/sichu_in/sichu_in_all/sichu_in_tex2_board_MetallicSmoothness.png using Guid(3f15cc5b301837a409bd103b71cfe0b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '30f28e8553a6caa6b551cc56e13cd471') in 0.0190448 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.943152 seconds.
+  path: Assets/Models/sichu_in/deco/bed/textures/IFD_Bed_HR_Color.png
+  artifactKey: Guid(e10247860a51ad746875e0e6cff5737b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/sichu_in/deco/bed/textures/IFD_Bed_HR_Color.png using Guid(e10247860a51ad746875e0e6cff5737b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bcfcb476a34e161619fde4fd4e6ddd7b') in 0.0172263 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 218.579624 seconds.
+  path: Assets/Fonts/NotoSansKR-VariableFont_wght SDF.asset
+  artifactKey: Guid(e441b5a9e8c4d1a4289ec25dbbff2569) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fonts/NotoSansKR-VariableFont_wght SDF.asset using Guid(e441b5a9e8c4d1a4289ec25dbbff2569) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)
+=================================================================
+	Native Crash Reporting
+=================================================================
+Got a UNKNOWN while executing native code. This usually indicates
+a fatal error in the mono runtime or one of the native libraries 
+used by your application.
+=================================================================
+
+=================================================================
+	Managed Stacktrace:
+=================================================================
+	  at <unknown> <0xffffffff>
+	  at System.Object:__icall_wrapper_ves_icall_object_new_specific <0x0006a>
+	  at <>c:<GetMaterialReferenceLookup>b__2_0 <0x00042>
+	  at WhereEnumerableIterator`1:MoveNext <0x000ea>
+	  at UnityEditor.Rendering.Universal.MaterialReferenceBuilder:GetMaterialReferenceLookup <0x00478>
+	  at UnityEditor.Rendering.Universal.MaterialReferenceBuilder:.cctor <0x00032>
+	  at System.Object:runtime_invoke_void <0x00084>
+	  at <unknown> <0xffffffff>
+	  at System.Object:__icall_wrapper_mono_generic_class_init <0x0006a>
+	  at UnityEditor.Rendering.Universal.ConversionIndexers:ConversionIndexer <0x0006a>
+	  at <Module>:invoke_void_CustomObjectIndexerTarget_ObjectIndexer <0x00113>
+	  at UnityEditor.Search.ObjectIndexer:CallCustomIndexers <0x004c9>
+	  at UnityEditor.Search.ObjectIndexer:IndexCustomProperties <0x00132>
+	  at UnityEditor.Search.AssetIndexer:IndexSubAsset <0x003c2>
+	  at UnityEditor.Search.AssetIndexer:IndexDocument <0x00b7a>
+	  at UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset <0x00163>
+	  at UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData <0x00018>
+	  at <Module>:runtime_invoke_void__this___object <0x00092>
+=================================================================
+ -> (artifact id: 'f352ed4cee19fa82b3058bd7ddf9dc77') in 0.6355451 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Sichu_UI
+  artifactKey: Guid(5a3a1bf571f661d4593e26354231393d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sichu_UI using Guid(5a3a1bf571f661d4593e26354231393d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3db06c7a0b76b55ca206139f0f049795') in 0.0160438 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/sichu_in/deco/electrical-box-free/source
+  artifactKey: Guid(467de430ceeb65f4bb370cb19a03116f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/sichu_in/deco/electrical-box-free/source using Guid(467de430ceeb65f4bb370cb19a03116f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c413fee88b013ff019eccb4253f428f2') in 0.0122952 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Models/FixBbutton/textures/Botão_d.png
+  artifactKey: Guid(80d37d096e1f6d2458717f282d69fa85) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/FixBbutton/textures/Botão_d.png using Guid(80d37d096e1f6d2458717f282d69fa85) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1d6e2a03cd6c2e07218dcfd874d9da5a') in 0.0482139 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Models/FixBbutton/source/BotaoAlarmeFASE1.fbx
+  artifactKey: Guid(bd325132f27367d4187292fef8ca4079) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/FixBbutton/source/BotaoAlarmeFASE1.fbx using Guid(bd325132f27367d4187292fef8ca4079) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '10875dbeb3650ef7e3106143152ace93') in 0.0599102 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/sichu_in/deco/electrical-box-free/textures/elektrischetijdsk_Displacement.png
+  artifactKey: Guid(e8e8ed0e6f8d90243a61176b1d6458a1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/sichu_in/deco/electrical-box-free/textures/elektrischetijdsk_Displacement.png using Guid(e8e8ed0e6f8d90243a61176b1d6458a1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5bf06914464f53de4ba40dd364b0a834') in 0.0264656 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Models/Sichu/dodrill.mat
+  artifactKey: Guid(7ffb8353cb7139d439b327700243be1b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/Sichu/dodrill.mat using Guid(7ffb8353cb7139d439b327700243be1b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9874325b9127f3b943ee96006da9d223') in 0.0260548 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/sichu_in/deco/metal-cabinet/source/Metal Cabinet_fixed.fbx
+  artifactKey: Guid(1f478ea99cd9f8649916cfc5031e2832) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/sichu_in/deco/metal-cabinet/source/Metal Cabinet_fixed.fbx using Guid(1f478ea99cd9f8649916cfc5031e2832) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '66151eedbd4ee76c8f06e829adf967ab') in 0.0449721 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 45
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Models/sichu_in/sichu_in_all/sichu_in_tex2_lambert1_AlbedoTransparency.png
+  artifactKey: Guid(bfb01ddd2d363364f879105aed76337c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/sichu_in/sichu_in_all/sichu_in_tex2_lambert1_AlbedoTransparency.png using Guid(bfb01ddd2d363364f879105aed76337c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'aaa4b8f11380bfc24d5876d3fc4f6a00') in 0.0251523 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034828 seconds.
+  path: Assets/Models/sichu_in/button
+  artifactKey: Guid(537acebc0d2f85f45925c1f53b5a8913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/sichu_in/button using Guid(537acebc0d2f85f45925c1f53b5a8913) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2f2ccfea950216b1caaab812461a4920') in 0.0005519 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.107003 seconds.
+  path: Assets/Models/sichu_in/sichu_in_all/sichu_in_all.fbx
+  artifactKey: Guid(9f9ad7dd41ff490479a3341abbcf9d54) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/sichu_in/sichu_in_all/sichu_in_all.fbx using Guid(9f9ad7dd41ff490479a3341abbcf9d54) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '14ca5a5378481951c1cb6f1e0fe16bbd') in 0.087335 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 294
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Models/sichu_in/sichu_in_all/sichu_in_tex2_main_Normal.png
+  artifactKey: Guid(3e5713cfd64e389428b5f18cbcc6d408) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/sichu_in/sichu_in_all/sichu_in_tex2_main_Normal.png using Guid(3e5713cfd64e389428b5f18cbcc6d408) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '168965ce5ec968b49b7336439463b2a8') in 0.0230583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Models/Sichu/sichu_all_radar_fire_Normal.png
+  artifactKey: Guid(f61554cc278288d4ea764b99cd9639a9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/Sichu/sichu_all_radar_fire_Normal.png using Guid(f61554cc278288d4ea764b99cd9639a9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '12eba4d82c0f158e5d70f3c140d9191b') in 0.0240089 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.237158 seconds.
+  path: Assets/Models/sichu_in
+  artifactKey: Guid(6d97be57eda6dc54a8154036c98f2946) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/sichu_in using Guid(6d97be57eda6dc54a8154036c98f2946) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6ab4a29149fcaae0dcf6eb5001ceef1a') in 0.0130686 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Models/Sichu/sichu_all_leg_MetallicSmoothness.png
+  artifactKey: Guid(75285b95d84aa50408d00c78c5f579ce) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/Sichu/sichu_all_leg_MetallicSmoothness.png using Guid(75285b95d84aa50408d00c78c5f579ce) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bace9f253d47e19d2563b09c180cd197') in 0.0203779 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Models/sichu_in/sichu_in_all/sichu_in_tex2_in_deco_MetallicSmoothness.png
+  artifactKey: Guid(502242a49d3459545b3fcb0640f9a540) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/sichu_in/sichu_in_all/sichu_in_tex2_in_deco_MetallicSmoothness.png using Guid(502242a49d3459545b3fcb0640f9a540) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7099cdc66b7b9936f9813af24c330116') in 0.0200551 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.313555 seconds.
+  path: Assets/Models/Sichu/sichu_all_dodrill_AlbedoTransparency.png
+  artifactKey: Guid(70227224fad2e954686eb5c8c986bb9f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/Sichu/sichu_all_dodrill_AlbedoTransparency.png using Guid(70227224fad2e954686eb5c8c986bb9f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8e3f880da9a0e2eaf7ebc6b1a927b779') in 0.0195264 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Models/Sichu/sichu_all_deco_Normal.png
+  artifactKey: Guid(0f202e91b8373ab46863dcdcc0198375) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/Sichu/sichu_all_deco_Normal.png using Guid(0f202e91b8373ab46863dcdcc0198375) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '748147700ea546e022889943d96f7527') in 0.0242255 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.353789 seconds.
+  path: Assets/Models/sichu_in/sichu_in_all
+  artifactKey: Guid(a48047f427326dc498826145463b758d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/sichu_in/sichu_in_all using Guid(a48047f427326dc498826145463b758d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'be299d4f58ad4a94adfcd3f7a27933f6') in 0.0126436 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Models/Sichu_UI/UI.prefab
+  artifactKey: Guid(7f0b913b44756184990fad9ffa5421b9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/Sichu_UI/UI.prefab using Guid(7f0b913b44756184990fad9ffa5421b9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a7471b7092327376ffdab5aa34b9a2ca') in 0.0312535 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 292
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.368590 seconds.
+  path: Assets/Models/Sichu_UI/Asset 37ccc.png
+  artifactKey: Guid(1a1e79471df1fcd42b0a08ac8db235d7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/Sichu_UI/Asset 37ccc.png using Guid(1a1e79471df1fcd42b0a08ac8db235d7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '54af52be46e557a550a5a15fa0ec40a9') in 0.0325616 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Models/sichu_in/sichu_in_all/sichu_in_tex2_drilllcylinder_Normal.png
+  artifactKey: Guid(b4e0ec89976850140918c51a28897307) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/sichu_in/sichu_in_all/sichu_in_tex2_drilllcylinder_Normal.png using Guid(b4e0ec89976850140918c51a28897307) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b749643d2074e4a663d9954a0a276e53') in 0.0212575 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.359691 seconds.
+  path: Assets/Models/Sichu/leg.mat
+  artifactKey: Guid(a501d57e60f057e4bba00c58c03a95c1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/Sichu/leg.mat using Guid(a501d57e60f057e4bba00c58c03a95c1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ab16157d891dc6e66636f0622b437da0') in 0.0210092 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Models/sichu_in/deco/bed/source/IFD_Bed_HR_Frame.fbx
+  artifactKey: Guid(e5a9a8d332e43e741b90482d3794e9f4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/sichu_in/deco/bed/source/IFD_Bed_HR_Frame.fbx using Guid(e5a9a8d332e43e741b90482d3794e9f4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bc95f803c5274f369d5bf7b1d0cc919e') in 0.1748851 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 305
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.211789 seconds.
+  path: Assets/Models/Sichu/sichu_all_dodrill_Normal.png
+  artifactKey: Guid(735ede9c5790c5f44abce64300afaa0c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/Sichu/sichu_all_dodrill_Normal.png using Guid(735ede9c5790c5f44abce64300afaa0c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b810e55d1a952dcb91e1ead08250ddba') in 0.0245 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Models/sichu_in/sichu_in_all/sichu_in_tex2_in_deco_Normal.png
+  artifactKey: Guid(b21884ae5106c2445a95f980bedafb74) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/sichu_in/sichu_in_all/sichu_in_tex2_in_deco_Normal.png using Guid(b21884ae5106c2445a95f980bedafb74) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3395dca52884c22c4de442ca3d7b7514') in 0.0224542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.362458 seconds.
+  path: Assets/Models/Sichu/sichu_all_dodrill_MetallicSmoothness.png
+  artifactKey: Guid(5883deaa61e444d4d8472a942dada398) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/Sichu/sichu_all_dodrill_MetallicSmoothness.png using Guid(5883deaa61e444d4d8472a942dada398) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b1c249882cf25a5c3742ae640a4b9727') in 0.0248789 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Models/sichu_in/sichu_in_all/sichu_in_tex2_board_MetallicSmoothness.png
+  artifactKey: Guid(3f15cc5b301837a409bd103b71cfe0b0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/sichu_in/sichu_in_all/sichu_in_tex2_board_MetallicSmoothness.png using Guid(3f15cc5b301837a409bd103b71cfe0b0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dc888cfccee7c6a5ff7810f324ad43cd') in 0.0234442 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.360110 seconds.
+  path: Assets/Models/Sichu_UI/Asset 14abc.png
+  artifactKey: Guid(71930966f4cef9f47a69b93532949e60) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/Sichu_UI/Asset 14abc.png using Guid(71930966f4cef9f47a69b93532949e60) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a89bf0b46044f90ea07cc0d7d1704dfc') in 0.0224159 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Models/Sichu/sichu_all_main_board_MetallicSmoothness.png
+  artifactKey: Guid(c39c5b32e0cb98646b36429e83de1241) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/Sichu/sichu_all_main_board_MetallicSmoothness.png using Guid(c39c5b32e0cb98646b36429e83de1241) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '72c1dbbf89c64aaa168c3f07eb01c3ba') in 0.0256858 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.366127 seconds.
+  path: Assets/Models/sichu_in/sichu_in_all/ran.mat
+  artifactKey: Guid(47e752f3f088caa4fb37c524f30a5cd5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/sichu_in/sichu_in_all/ran.mat using Guid(47e752f3f088caa4fb37c524f30a5cd5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0d11914bf1958bb5a2b6257348feb37d') in 0.0249152 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Models/sichu_in/sichu_in_all/sichu_in_tex2_drill_1_AlbedoTransparency.png
+  artifactKey: Guid(3c2850751cbd7604f815d2883724dc62) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/sichu_in/sichu_in_all/sichu_in_tex2_drill_1_AlbedoTransparency.png using Guid(3c2850751cbd7604f815d2883724dc62) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f075bd0ac613c2e73ba23418eb9c7131') in 0.0273152 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.362494 seconds.
+  path: Assets/Models/sichu_in/deco/bed/source
+  artifactKey: Guid(c70f3eef1affe1040a9a67e608ade8a5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/sichu_in/deco/bed/source using Guid(c70f3eef1affe1040a9a67e608ade8a5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3f48a2d793a61d43875a4f5bdf6decd3') in 0.0174382 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Models/Sichu_UI/Asset 15abc.png
+  artifactKey: Guid(92bb84d355219564b808cd4ff0605cb4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/Sichu_UI/Asset 15abc.png using Guid(92bb84d355219564b808cd4ff0605cb4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '42dbd5c0c89439dca820d16450d8b583') in 0.0318263 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.354108 seconds.
+  path: Assets/Models/Sichu_UI/Asset 24abc.png
+  artifactKey: Guid(ee9f2fd703382f7409c22d412202f475) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/Sichu_UI/Asset 24abc.png using Guid(ee9f2fd703382f7409c22d412202f475) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '41c80991e35a3833e0a2eaa77a3f90f5') in 0.0205445 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/GameOST/Lever.mp3
+  artifactKey: Guid(e981516b646b9254787871d0debba9f5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GameOST/Lever.mp3 using Guid(e981516b646b9254787871d0debba9f5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '57e1341b83d19fc2764c6c13f2d56991') in 0.0437092 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.848044 seconds.
+  path: Assets/sichu_in/deco/metal-cabinet/textures/Cabinet_metal_Roughness.png
+  artifactKey: Guid(2cf6fef507941224c90ccc94ac2613ae) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/sichu_in/deco/metal-cabinet/textures/Cabinet_metal_Roughness.png using Guid(2cf6fef507941224c90ccc94ac2613ae) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0a6522acb90ad22fdc5fce68de87f7de') in 0.0249579 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/sichu_in/deco/source/electrical boxes.fbx
+  artifactKey: Guid(9beb8d840da824a488779ecc48a2e528) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/sichu_in/deco/source/electrical boxes.fbx using Guid(9beb8d840da824a488779ecc48a2e528) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8ad7112cbb5b56f9eadf6e13ad5801cb') in 0.0581419 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 174
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Models/Sichu_UI/Asset 17abc.png
+  artifactKey: Guid(a88838ecff559954eb5a653de1f75fc2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/Sichu_UI/Asset 17abc.png using Guid(a88838ecff559954eb5a653de1f75fc2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5fd6025ac6da5f080045dde9f75baa24') in 0.0223372 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Scripts/EconomyManager.cs
+  artifactKey: Guid(6b7e0a8bfa82d66498496b5abc48d321) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/EconomyManager.cs using Guid(6b7e0a8bfa82d66498496b5abc48d321) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '33cf219aaa0889316447c6819ec74f43') in 0.0132689 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/sichu_in/deco/source/electrical boxes_Mixed_AO.png
+  artifactKey: Guid(848dcc389a0720940a9c3a27a8474598) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/sichu_in/deco/source/electrical boxes_Mixed_AO.png using Guid(848dcc389a0720940a9c3a27a8474598) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '16686f54d6f8025214524c269aa6b053') in 0.021292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sichu_UI/UI.prefab
+  artifactKey: Guid(78f9e667e4e57e949887a1dcc9a81f94) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sichu_UI/UI.prefab using Guid(78f9e667e4e57e949887a1dcc9a81f94) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3b368093b5affdf886f850b505c581a2') in 0.0269379 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 292
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Models/sichu_in/sichu_in_all/drilmain.mat
+  artifactKey: Guid(71a54720057de0c4bb6d927f3dcfbb9a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/sichu_in/sichu_in_all/drilmain.mat using Guid(71a54720057de0c4bb6d927f3dcfbb9a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '06dd6017e5229f6957b8a192ca55ca41') in 0.0186692 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Models/sichu_in/sichu_in_all/sichu_in_tex2_board_AlbedoTransparency.png
+  artifactKey: Guid(15e1f6a152e91504fa84624427c64bc5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/sichu_in/sichu_in_all/sichu_in_tex2_board_AlbedoTransparency.png using Guid(15e1f6a152e91504fa84624427c64bc5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bc5ce98f7bfabaaf5699af151198c268') in 0.0311584 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/New Material.mat
+  artifactKey: Guid(6de0fd54779d22c4a918b582bcaeb422) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/New Material.mat using Guid(6de0fd54779d22c4a918b582bcaeb422) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c74905e594831814dc48ecafc2f0bf14') in 0.019861 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Scripts/UIManager.cs
+  artifactKey: Guid(cae5d3675b9b307458d97aff2d2172e8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/UIManager.cs using Guid(cae5d3675b9b307458d97aff2d2172e8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c40ac834369cbf3ca981e37cbfe2d105') in 0.0142787 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Scenes/Inside/LightingData.asset
+  artifactKey: Guid(bc0824b3da44c01408cc7f541dce11e9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Inside/LightingData.asset using Guid(bc0824b3da44c01408cc7f541dce11e9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '69de13902f99985600bf0993fb695256') in 0.0214242 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Scenes/Inside/ReflectionProbe-0.exr
+  artifactKey: Guid(137f1c2fef849734886ca8a85c033b50) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Inside/ReflectionProbe-0.exr using Guid(137f1c2fef849734886ca8a85c033b50) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f311913ea85e0c07470019086ebff6ec') in 0.0253803 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Materials/ButtonMT 3.mat
+  artifactKey: Guid(2a8d236e554c6ee49a2b2e18f968324e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Materials/ButtonMT 3.mat using Guid(2a8d236e554c6ee49a2b2e18f968324e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2f3c0d95c45219d88f3291283181b952') in 0.0150552 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Models/Sichu_UI/Asset 26abc.png
+  artifactKey: Guid(ebb8b6f56109c3e4a9684a06f9c1a6a3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/Sichu_UI/Asset 26abc.png using Guid(ebb8b6f56109c3e4a9684a06f9c1a6a3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3c2a0e85a6ab71a575831cd7e2ae966b') in 0.0269627 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Models/sichu_in/sichu_in_all/sichu_in_tex2_drilllcylinder_MetallicSmoothness.png
+  artifactKey: Guid(2931ddc8863255b409b9c391ffa27f37) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/sichu_in/sichu_in_all/sichu_in_tex2_drilllcylinder_MetallicSmoothness.png using Guid(2931ddc8863255b409b9c391ffa27f37) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1d166f7eef733f6b24c388d3e81133e9') in 0.0198358 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Models/Sichu_UI/Asset 35ccc.png
+  artifactKey: Guid(99b43c8ddcb8bbb47a2defeec21c67c3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/Sichu_UI/Asset 35ccc.png using Guid(99b43c8ddcb8bbb47a2defeec21c67c3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '258abaa6d8d568a442c39f17fee58ebc') in 0.0207278 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Models/Sichu/sichu_all_deco_AlbedoTransparency.png
+  artifactKey: Guid(64b0b45d7df63e74995dda7644c73d0a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/Sichu/sichu_all_deco_AlbedoTransparency.png using Guid(64b0b45d7df63e74995dda7644c73d0a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4ca695b8eea01225ae2bac78341b1646') in 0.0200357 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/sichu_in/deco/electrical-box-free/textures/elektrischetijdsk_Metallic.png
+  artifactKey: Guid(38b12be69a94d8d4a9f92c692f2dba49) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/sichu_in/deco/electrical-box-free/textures/elektrischetijdsk_Metallic.png using Guid(38b12be69a94d8d4a9f92c692f2dba49) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '39b2621d67fe01cbb29b3cf33e58d3bb') in 0.0265288 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Scenes/Outside.unity
+  artifactKey: Guid(1f9384aaa4cd5fb408f6e750050f1b7a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Outside.unity using Guid(1f9384aaa4cd5fb408f6e750050f1b7a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0c73c2de15136a12f097a0b0285821a2') in 0.0358248 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/sichu_in/deco/electrical-box-free/textures/elektrischetijdsk_Normal.png
+  artifactKey: Guid(4460a29aa748da548b14e84d886d46f8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/sichu_in/deco/electrical-box-free/textures/elektrischetijdsk_Normal.png using Guid(4460a29aa748da548b14e84d886d46f8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2d896dc25d8327fb888438d3040db287') in 0.0247501 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Scenes/Inside.unity
+  artifactKey: Guid(c57a83e5d2994c242aaab53abfb319f0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Inside.unity using Guid(c57a83e5d2994c242aaab53abfb319f0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ef32c2dcb99f29fa328209872b6c5347') in 0.0901829 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/sichu_in/deco/electrical-box-free/textures/elektrischetijdsk_BaseColor.png
+  artifactKey: Guid(4f33a4d85b983864faac9a0b1569d0f2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/sichu_in/deco/electrical-box-free/textures/elektrischetijdsk_BaseColor.png using Guid(4f33a4d85b983864faac9a0b1569d0f2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dd3275c291140fa20cb67359c338af18') in 0.0204522 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Models/Sichu_UI/Asset 23abc.png
+  artifactKey: Guid(db65bfb1afb02f14db041ed549460ba3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/Sichu_UI/Asset 23abc.png using Guid(db65bfb1afb02f14db041ed549460ba3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8d123f0168dd92d42ccb19711ddd4fef') in 0.0293878 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Models/sichu_in/sichu_in_all/sichu_in_tex2_main_AlbedoTransparency.png
+  artifactKey: Guid(ebc4df171c3b11d4aa7392009b1c0bbc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/sichu_in/sichu_in_all/sichu_in_tex2_main_AlbedoTransparency.png using Guid(ebc4df171c3b11d4aa7392009b1c0bbc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '54b9503a6409d8b333dcad29508fd549') in 0.0203714 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/sichu_in/deco/source/electrical boxes_Metallic.png
+  artifactKey: Guid(306a3618e8b4cda4ebc8b8cdd3b40f77) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/sichu_in/deco/source/electrical boxes_Metallic.png using Guid(306a3618e8b4cda4ebc8b8cdd3b40f77) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5a954d3f514553056f0d556dfbf7f802') in 0.0226603 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Models/Sichu/fire_radar.mat
+  artifactKey: Guid(6e26c17a95e601b49b4c93169957739d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/Sichu/fire_radar.mat using Guid(6e26c17a95e601b49b4c93169957739d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bedc25bd67f41b01cea7af12c9584d47') in 0.0233722 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting

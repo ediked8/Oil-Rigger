@@ -13,7 +13,7 @@ public class UIManager : MonoBehaviour
     public Slider[] sliders;
     public Toggle toggle;
     public Slider drillSlider;
-    public float drillpoint = 0.115f;
+    public float drillpoint = 1f;
     public float spd;
 
     public GameObject onCoin;
@@ -32,6 +32,8 @@ public class UIManager : MonoBehaviour
 
     public TextMeshProUGUI PlayerGold;
     public TextMeshProUGUI GameMessage;
+    public TextMeshProUGUI dayinfo;
+    public TextMeshProUGUI totalDebtT;
 
     public Image PlayerHud;
 
@@ -50,7 +52,11 @@ public class UIManager : MonoBehaviour
         StartCoroutine(CoinSLupdate());
         
     }
-
+    private void Update()
+    {
+        DayUpdate();
+        totalDebtUp();
+    }
     public void StoredOilCountRefresh()
     {
 
@@ -220,12 +226,12 @@ public class UIManager : MonoBehaviour
                 yield return null; // 다음 프레임까지 대기
             }
             drillSlider.value = 0;
-            drillpoint = 0.142f;
+            drillpoint = 1f;
             yield break;
         }
 
         drillSlider.value = drillpoint;
-        drillpoint += drillpoint;
+        drillpoint++;
     }
 
     public void storeUI()
@@ -265,9 +271,9 @@ public class UIManager : MonoBehaviour
         
 
     }
-    public void PlayerGoldUpdate() => PlayerGold.text = GameManager.Instance.playerGold.ToString();
+    public void PlayerGoldUpdate() => PlayerGold.text = $"{GameManager.Instance.playerGold.ToString()} Gold.";
 
-
-
+    public void DayUpdate() => dayinfo.text = $"{GameManager.Instance.currentDay.ToString()} DAY";
+    public void totalDebtUp() => totalDebtT.text = $"{GameManager.Instance.totalDebt.ToString()} G"; 
 
 }

@@ -16,3 +16,4 @@ MonoBehaviour:
     level: 0
     layerPro: 5a0000003c0000001e0000000a0000000500000000000000
     eventGold: 1500
+    upgradeCost: 0
